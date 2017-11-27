@@ -1,0 +1,189 @@
+/*
+Resetear el navegador
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #FF875F;
+  color: white;
+}
+
+/*
+Crear container
+*/
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.row:before, .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+[class*="col-"] {
+  float: left;
+  min-height: 7px;
+  padding: 18px;
+}
+
+/*
+formula para el ancho de las columnas (numero columnas / 12) * 100
+*/
+
+.col-1 {
+  width: 8.333333%;
+  border: 1px solid red;
+  height: 100px;
+}
+
+.col-2 {
+  width: 16.666667%;
+  background-color: #93F082;
+  height: 218px;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.333333%;
+}
+
+.col-5 {
+  width: 41.666667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.333333%;
+}
+
+.col-8 {
+  width: 66.666667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.333333%;
+}
+
+.col-11 {
+  width: 91.666667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+/*MIS ESTILOS*/
+
+img {
+  width: 100%;
+  border: 8px solid white;
+}
+
+@media (max-width: 450px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+#header{
+  height: 200px;
+  text-align: right;
+}
+
+#header h1{
+    font-size: 50px;
+    padding: 35px;
+}
+
+#header h4{
+    font-size: 25px;
+    margin-right: 35px;
+}
+
+#rose{
+    height: 200px;
+}
+
+#roseroad{
+    height: 25px;
+}
+
+#panda{
+  background-image: url(img/uno.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 400px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+#pandados{
+  background-image: url(img/dos.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 800px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+#pandatres{
+  background-image: url(img/tres.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 800px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.col-6{
+  color: white;
+  text-align: center;
+  background-color: #FF875F;
+  height: 200px;
+}
+#greenroad{
+  background-color: #93F082;
+  height: 30px;
+}
+#greenroads{
+  background-color: #93F082;
+  height: 80px;
+}
+#green{
+  background-color: #93F082;
+  text-align: center;
+  height: 200px;
+}
+
+#green h2{
+    padding: 15px;
+}
+
+#green p{
+    font-size: 18px;
+}
+#greens{
+    background-color: #93F082;
+    height: 80px;
+    font-size: 25px;
+}
+#greens h2{
+  background-color: #93F082;
+}
+#footer{
+  height: 60px;
+}
